@@ -1,38 +1,58 @@
-.App {
+h5{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: contents;
+  color: blue;
+}
+button.btn {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 59px!important;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 59px;
+    color: white;
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+}
+.child {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-cnd76u-MuiPaper-root {
+  margin: 27px;
+  height: 32px;
+  width: 397px;
+  border-radius: 54px;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.342);
+}
+.App{
+  background-color: black;
+  background-image: url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.marks{
+  height: 100vh;
+  width: 100vh;
+  text-align: center;
+  background-color: cornsilk;
 }
